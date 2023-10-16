@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Color mix</title>
+  </head>
+  <body>
+    <main>
+      <section class="modal">
+        <h2 class="title rainbow_text_animated">
+          Find the combination of colors
+        </h2>
+        <p class="score">
+          <span class="color--1 color-shape default"></span> +
+          <span class="color--2 color-shape default"></span> =
+          <span class="color--mix color-shape"></span> (
+          <span class="color--comb color-shape"></span> )
+        </p>
+        <p class="winning--message hidden">Yay you found the combination!</p>
+        <div class="colors--selection">
+          <p class="colors-label">Colors selection</p>
+          <div class="colors--list">
+            <button class="color--list--0 color-shape color--list"></button>
+            <button class="color--list--1 color-shape color--list"></button>
+            <button class="color--list--2 color-shape color--list"></button>
+            <button class="color--list--3 color-shape color--list"></button>
+          </div>
+        </div>
+      </section>
+      <button class="reset button">Try again</button>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
